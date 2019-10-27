@@ -73,7 +73,7 @@ int main()
 	// and lower case) 
 	string keys[] = {"the", "a", "there", 
 					"answer", "any", "by", 
-					"bye", "their" }; 
+					"bye", "their", "that" }; 
 	int n = sizeof(keys)/sizeof(keys[0]); 
 
 	struct TrieNode *root = getNode(); 
